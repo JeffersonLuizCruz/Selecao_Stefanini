@@ -2,13 +2,11 @@
 ## Documentação
 
 ### Front-end 
-<br /> 
 Foi feito utilizando Angular 2 <br /> 
 O servidor está hospedado na porta:8081 <br /> 
 Para ligar o servidor, utilize o comando: ng serve --port 8081 <br /> 
 
 ### Back-end
-<br /> 
 Foi feito utilizando Spring Boot <br /> 
 O servidor está hospedado na porta:8080 <br /> 
 Para ligar o servidor, utilize o comando: mvn spring-boot:run <br /> 
@@ -16,8 +14,7 @@ Para ligar o servidor, utilize o comando: mvn spring-boot:run <br />
 Após ligar as aplicações, entre em http://localhost:8081/ <br /> 
 
 ## Relatório de atividades
-<br /> 
-### Dia 13/09
+#### Dia 13/09
 <br /> 
 Apresentação do Projeto
 <br /> 
