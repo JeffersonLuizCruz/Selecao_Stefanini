@@ -1,4 +1,8 @@
 # Seleção para Estágio Stefanini
+
+Candidato: Vinicius Barbosa Polito Lopes
+Departamento: PED
+
 ## Documentação
 
 ### Front-end 
