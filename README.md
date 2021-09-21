@@ -1,7 +1,7 @@
 # Seleção para Estágio Stefanini
 
-Candidato: Vinicius Barbosa Polito Lopes
-Departamento: PED
+**Candidato:** Vinicius Barbosa Polito Lopes <br /> 
+**Departamento:** PED <br /> 
 
 ## Documentação
 
