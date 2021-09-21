@@ -40,9 +40,14 @@ https://www.bezkoder.com/angular-12-spring-boot-file-upload/ <br />
 Então decidi buscar uma aplicação já feita como base para enteder como integrar o back e o front. <br /> 
 #### Dia 17/09
 Comecei a tentar entender como é o processo de recorte e binarização. <br /> 
+https://www.youtube.com/watch?v=jHPQxTMfvIE <br /> 
+https://www.youtube.com/watch?v=uZG-Y-wDNBQ <br /> 
 #### Dia 18/09 
 Dia OFF <br /> 
 #### Dia 19/09
 Descobri a existencia do OpenCV e fiz a configuração para utilização no Eclipse. <br /> 
+https://www.youtube.com/watch?v=Dk5zSWElkno <br /> 
 #### Dia 20/09 
-Feita formação do README.md
+Feita formação do README.md <br /> 
+Comecei a entender como utilizar o OpenCV <br /> 
+https://opencv-java-tutorials.readthedocs.io/en/latest/ <br /> 
