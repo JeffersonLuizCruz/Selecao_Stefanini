@@ -2,9 +2,9 @@
 ## Documentação
 
 ###Front-end
-Foi feito utilizando Angular 2
-O servidor está hospedado na porta:8081
-Para ligar o servidor, utilize o comando: ng serve --port 8081
+Foi feito utilizando Angular 2 <br /> 
+O servidor está hospedado na porta:8081 <br /> 
+Para ligar o servidor, utilize o comando: ng serve --port 8081 <br /> 
 
 ###Back-end
 Foi feito utilizando Spring Boot
