@@ -20,6 +20,7 @@ import org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBui
 
 import com.spring.message.ResponseMessage;
 import com.spring.model.FileInfo;
+import com.spring.opencv.JBillDetection;
 import com.spring.service.FilesStorageService;
 
 
@@ -29,12 +30,17 @@ public class FilesController {
 
   @Autowired
   FilesStorageService storageService;
-
+  JBillDetection bill;
+  
   @PostMapping("/upload")
   public ResponseEntity<ResponseMessage> uploadFile(@RequestParam("file") MultipartFile file) {
     String message = "";
     try {
-      storageService.save(file);
+    	String filename = file.getOriginalFilename();
+    	
+    	storageService.save(file);
+      
+    	bill.transform(filename);
 
       message = "Uploaded the file successfully: " + file.getOriginalFilename();
       return ResponseEntity.status(HttpStatus.OK).body(new ResponseMessage(message));

@@ -16,12 +16,14 @@ import org.springframework.web.multipart.MultipartFile;
 @Service
 public class FilesStorageServiceImpl implements FilesStorageService {
 
-  private final Path root = Paths.get("uploads");
+  private final Path root = Paths.get("src/uploads");
+  private final Path down = Paths.get("src/downloads");
 
   @Override
   public void init() {
     try {
       Files.createDirectory(root);
+      Files.createDirectory(down);
     } catch (IOException e) {
       throw new RuntimeException("Could not initialize folder for upload!");
     }
@@ -39,7 +41,8 @@ public class FilesStorageServiceImpl implements FilesStorageService {
   @Override
   public Resource load(String filename) {
     try {
-      Path file = root.resolve(filename);
+      Path file = down.resolve(filename);
+      //Path file = root.resolve(filename);
       Resource resource = new UrlResource(file.toUri());
 
       if (resource.exists() || resource.isReadable()) {
@@ -55,6 +58,7 @@ public class FilesStorageServiceImpl implements FilesStorageService {
   @Override
   public void deleteAll() {
     FileSystemUtils.deleteRecursively(root.toFile());
+    FileSystemUtils.deleteRecursively(down.toFile());
   }
 
   @Override
