@@ -67,7 +67,7 @@ Referências do dia: <br />
 https://opencv-java-tutorials.readthedocs.io/en/latest/ <br /> 
 https://stackoverflow.com/questions/28231066/how-to-crop-the-detected-face-image-in-opencv-java
 #### Dia 21/09 
-Tentei utilizar detecção de face como referência para fazer o recorte e a binarização.
+Tentei utilizar detecção de face como referência para fazer o recorte e a binarização. <br />
 Referências do dia: <br />
 https://blog.finxter.com/how-to-crop-an-image-using-opencv/
 https://stackoverflow.com/questions/28231066/how-to-crop-the-detected-face-image-in-opencv-java
