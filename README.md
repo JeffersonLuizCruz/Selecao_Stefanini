@@ -73,19 +73,20 @@ https://blog.finxter.com/how-to-crop-an-image-using-opencv/
 https://stackoverflow.com/questions/28231066/how-to-crop-the-detected-face-image-in-opencv-java
 https://stackoverflow.com/questions/37946482/crop-images-area-with-opencv-java
 #### Dia 22/09 
-Fiz o recorte, grayscale e a binarização, em um projeto à parte para validar meu algoritmo de processamento de imagem. Entretanto, não tive muito êxito ao integrar com o spring boot.
+Fiz o recorte, grayscale e a binarização, em um projeto à parte para validar meu algoritmo de processamento de imagem. Entretanto, não tive muito êxito ao integrar com o spring boot.<br />
 Referências do dia: <br />
-https://stackoverflow.com/questions/48009317/how-to-threshold-any-image-for-black-and-white-color-seperation-in-java
-https://www.embarcados.com.br/processamento-de-imagens-binarias/ (Python)
-https://stackoverflow.com/questions/31289895/threshold-image-using-opencv-java
-https://introcs.cs.princeton.edu/java/31datatype/Threshold.java.html
-https://www.tutorialspoint.com/explain-opencv-adaptive-threshold-using-java-example
-https://stackoverflow.com/questions/34358364/otsu-threshold-in-java
-https://docs.opencv.org/3.4/javadoc/constant-values.html#org.opencv.imgcodecs.Imgcodecs.IMREAD_GRAYSCALE
-https://stackoverflow.com/questions/8971308/what-is-cvsetto-function/8973044
-https://stackoverflow.com/questions/17035005/using-get-and-put-to-access-pixel-values-in-opencv-for-java
-https://answers.opencv.org/question/5/how-to-get-and-modify-the-pixel-of-mat-in-java/
-https://stackoverflow.com/questions/44880622/springboot-system-loadlibrary-run-twice/44899469
+https://stackoverflow.com/questions/48009317/  <br />
+how-to-threshold-any-image-for-black-and-white-color-seperation-in-java <br />
+https://www.embarcados.com.br/processamento-de-imagens-binarias/ (Python) <br />
+https://stackoverflow.com/questions/31289895/threshold-image-using-opencv-java <br />
+https://introcs.cs.princeton.edu/java/31datatype/Threshold.java.html <br />
+https://www.tutorialspoint.com/explain-opencv-adaptive-threshold-using-java-example <br />
+https://stackoverflow.com/questions/34358364/otsu-threshold-in-java <br />
+https://docs.opencv.org/3.4/javadoc/constant-values.html#org.opencv.imgcodecs.Imgcodecs.IMREAD_GRAYSCALE <br />
+https://stackoverflow.com/questions/8971308/what-is-cvsetto-function/8973044 <br />
+https://stackoverflow.com/questions/17035005/using-get-and-put-to-access-pixel-values-in-opencv-for-java <br />
+https://answers.opencv.org/question/5/how-to-get-and-modify-the-pixel-of-mat-in-java/ <br />
+https://stackoverflow.com/questions/44880622/springboot-system-loadlibrary-run-twice/44899469 <br />
 #### Dia 23/09
 Passei o dia debugando o código para integrar o algoritmo, criado utilizando OpenCV, com a aplicação web, utilizando spring boot, e conclui o MVP. <br />
 Referências do dia: <br />
