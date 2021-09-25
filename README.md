@@ -75,8 +75,7 @@ https://stackoverflow.com/questions/37946482/crop-images-area-with-opencv-java
 #### Dia 22/09 
 Fiz o recorte, grayscale e a binarização, em um projeto à parte para validar meu algoritmo de processamento de imagem. Entretanto, não tive muito êxito ao integrar com o spring boot.<br />
 Referências do dia: <br />
-https://stackoverflow.com/questions/48009317/  <br />
-how-to-threshold-any-image-for-black-and-white-color-seperation-in-java <br />
+https://stackoverflow.com/questions/48009317/how-to-threshold-any-image-for-black-and-white-color-seperation-in-java <br />
 https://www.embarcados.com.br/processamento-de-imagens-binarias/ (Python) <br />
 https://stackoverflow.com/questions/31289895/threshold-image-using-opencv-java <br />
 https://introcs.cs.princeton.edu/java/31datatype/Threshold.java.html <br />
