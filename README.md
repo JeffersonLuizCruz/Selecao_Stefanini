@@ -3,7 +3,7 @@
 **Candidato:** Vinicius Barbosa Polito Lopes <br /> 
 **Departamento:** PED <br /> 
 
-## Forma de ligar a aplicação
+## Como ligar a aplicação?
 
 ### Front-end 
 Foi feito utilizando Angular 2 <br /> 
@@ -18,8 +18,6 @@ O servidor está hospedado na porta:8080 <br />
 Para ligar o servidor, utilize o comando: ```mvn spring-boot:run``` <br /> 
 
 Após ligar as aplicações, entre em ```http://localhost:8081/``` <br /> 
-
-## Relatório de testes funcionais
 
 ## Relatório de atividades
 #### Dia 13/09
@@ -93,9 +91,16 @@ https://stackoverflow.com/questions/44880622/springboot-system-loadlibrary-run-t
 #### Dia 23/09
 Passei o dia debugando o código para integrar o algoritmo, criado utilizando OpenCV, com a aplicação web, utilizando spring boot, e conclui o MVP. <br />
 Referências do dia: <br />
-https://stackoverflow.com/questions/44880622/springboot-system-loadlibrary-run-twice/44899469
-https://answers.opencv.org/question/193924/failed-to-use-systemloadlibrarycorenative_library_name-on-raspberry-pi/
-https://subscription.packtpub.com/book/application-development/9781783283972/1/ch01lvl1sec12/a-java-opencv-simple-application
+https://stackoverflow.com/questions/44880622/springboot-system-loadlibrary-run-twice/44899469 <br />
+https://answers.opencv.org/question/193924/failed-to-use-systemloadlibrarycorenative_library_name-on-raspberry-pi/ <br />
+https://subscription.packtpub.com/book/application-development/9781783283972/1/ch01lvl1sec12/a-java-opencv-simple-application <br />
 #### Dia 24/09
 Dia da entrega do projeto. <br />
-Entretanto, informaram que estenderam o prazo para até o dia 26.
+Entretanto, informaram que estenderam o prazo para até o dia 26. <br />
+#### Dia 25/09
+Dia OFF <br />
+#### Dia 26/09
+Foi feita a criação de um documento de testes simples, e foi realizado uma revisão final no projeto. <br />
+Gostaria de agradecer a atenção, e espero trabalharmos juntos no futuro ^^  <br />
+
+
