@@ -3,19 +3,23 @@
 **Candidato:** Vinicius Barbosa Polito Lopes <br /> 
 **Departamento:** PED <br /> 
 
-## Documentação
+## Forma de ligar a aplicação
 
 ### Front-end 
 Foi feito utilizando Angular 2 <br /> 
 O servidor está hospedado na porta:8081 <br /> 
-Para ligar o servidor, utilize o comando: ng serve --port 8081 <br /> 
+É preciso entrar na pasta ```/Frontend``` do projeto, para execução do Frontend da aplicação. <br /> 
+Para ligar o servidor, utilize o comando: ```ng serve --port 8081``` <br /> 
 
 ### Back-end
 Foi feito utilizando Spring Boot <br /> 
 O servidor está hospedado na porta:8080 <br /> 
-Para ligar o servidor, utilize o comando: mvn spring-boot:run <br /> 
+É preciso entrar na pasta ```/Backend/spring-boot``` do projeto, para execução do Backend da aplicação. <br /> 
+Para ligar o servidor, utilize o comando: ```mvn spring-boot:run``` <br /> 
 
-Após ligar as aplicações, entre em http://localhost:8081/ <br /> 
+Após ligar as aplicações, entre em ```http://localhost:8081/``` <br /> 
+
+## Relatório de testes funcionais
 
 ## Relatório de atividades
 #### Dia 13/09
