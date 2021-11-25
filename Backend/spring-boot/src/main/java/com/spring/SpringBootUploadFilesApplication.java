@@ -6,12 +6,12 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import com.spring.service.FilesStorageService;
+import com.spring.service.FileStorageService;
 
 @SpringBootApplication
 public class SpringBootUploadFilesApplication implements CommandLineRunner {
   @Resource
-  FilesStorageService storageService;
+  FileStorageService storageService;
   public static void main(String[] args) {
     SpringApplication.run(SpringBootUploadFilesApplication.class, args);
   }
